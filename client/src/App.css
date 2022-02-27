@@ -1,0 +1,105 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aquamarine;
+  border: 2px solid black;
+}
+
+.box {
+  width: 45vw;
+  background-color: white;
+  margin-top: 3vw;
+  border: 2px solid rgb(177, 171, 171);
+  box-shadow: 5px 10px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#firstLabel {
+  padding-top: 20px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.information label {
+  font-weight: 500;
+}
+
+.information input {
+  width: 300px;
+  height: 25px;
+  margin: 5px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.information button {
+  margin-top: 20px;
+  width: 150px;
+  height: 25px;
+  margin-bottom: 20px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.information button:hover {
+  cursor: pointer;
+}
+
+.allEmployees {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  border-top: 2px solid black;
+}
+
+.allEmployees button {
+  margin-top: 20px;
+  width: 150px;
+  height: 25px;
+  margin-bottom: 10px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  font-weight: bold; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.employee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee h4 {
+  margin-bottom: 5px;
+}
+
+.employee button {
+  margin-top: 5px;
+}
+
+#deleteButton {
+  background-color: lightcoral;
+}
